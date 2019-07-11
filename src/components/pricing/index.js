@@ -5,55 +5,147 @@ import Zoom from 'react-reveal/Zoom';
 
 class Pricing extends Component {
 
-   state = {
-       prices: [100, 150, 250],
-       positions: ['Balcony', 'Medium', 'Star'],
-       desc: [
-           'a descriptioon lorem impusum lorfb lorem conrempor contrs retcg conthu',
-           'a descriptioon lorem impusum lorfb lorem conrempor contrs retcg conthu',
-           'a descriptioon lorem impusum lorfb lorem conrempor contrs retcg conthu'
-       ],
-       linkto: ['http://sales/b', 'http://sales/m', 'http://sales/s'],
-       delay: [500,0,500]
-   }
-
-   showBoxes = () => (
-      this.state.prices.map((box, i)=> (
-          <Zoom delay = {this.state.delay[i]} key = {[i]}>
-          <div className = "pricing_item">
-              <div className = "pricing_inner_wrapper">
-                  <div className = "pricing_title">
-                    <span>${this.state.prices[i]}</span>
-                  </div>
-                  <div className = "pricing_description">
-                     <span>{this.state.positions[i]}</span>
-                  </div>
-                  <div className= "pricing_buttons">
-                      {this.state.desc[i]}
-                  </div>
-                  <div className= "pricing_buttons">
-                     <MyButton
-                     text = "Purchase"
-                     bck = "#ffa800"
-                     color= "#ffffff"
-                     link = {this.state.linkto[i]}
-                     />
-                  </div>
-              </div>
-            
-          </div>
-          </Zoom>
-      ))
-   )
+ 
 
     render() {
         return (
-            <div className = "bck_black">
+            <div className = "bck_black_proyects">
                 <div className = "center_wrapper pricing_section">
-                    <h2>Pricing</h2>
+                    <h2>Proyects</h2>
 
                     <div className = "pricing_wrapper">
-                   {this.showBoxes()}
+                    <Zoom>
+          <div className = "pricing_item">
+          <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="https://images.unsplash.com/photo-1562732636-097920e73c94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Avatar" style={{
+     width:'300px',
+     height:'200px'
+
+    }}/>
+    </div>
+    <div class="flip-card-back">
+      <h1>Cipher</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+            
+          </div>
+          </Zoom>
+
+          <Zoom>
+          <div className = "pricing_item">
+          <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="https://images.unsplash.com/photo-1562732636-097920e73c94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Avatar" style={{
+      width:'300px',
+      height:'200px'
+
+    }}/>
+    </div>
+    <div class="flip-card-back">
+      <h1>Data Lovers</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+            
+          </div>
+          </Zoom>
+
+
+          <Zoom>
+          <div className = "pricing_item">
+          <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="https://images.unsplash.com/photo-1562732636-097920e73c94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Avatar" style={{
+     width:'300px',
+     height:'200px'
+
+    }}/>
+    </div>
+    <div class="flip-card-back">
+      <h1>Linkup!</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+            
+          </div>
+          </Zoom>
+
+          <Zoom>
+          <div className = "pricing_item">
+          <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="https://images.unsplash.com/photo-1562732636-097920e73c94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Avatar" style={{
+      width:'300px',
+      height:'200px'
+
+    }}/>
+    </div>
+    <div class="flip-card-back">
+      <h1>Markdown Links</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+            
+          </div>
+          </Zoom>
+
+          <Zoom>
+          <div className = "pricing_item">
+          <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="https://images.unsplash.com/photo-1562732636-097920e73c94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Avatar" style={{
+      width:'300px',
+      height:'200px'
+
+    }}/>
+    </div>
+    <div class="flip-card-back">
+      <h1>Burger Queen</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+            
+          </div>
+          </Zoom>
+
+          <Zoom>
+          <div className = "pricing_item">
+          <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="https://images.unsplash.com/photo-1562150467-17d77392ad0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=715&q=80" alt="Avatar" style={{
+     width:'300px',
+     height:'200px'
+
+    }}/>
+    </div>
+    <div class="flip-card-back">
+      <h1>Landing Page</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+            
+          </div>
+          </Zoom>
                     </div>
                 </div>
               

@@ -1,76 +1,73 @@
 import React from 'react'; 
 
-import Zoom from 'react-reveal/Zoom';
+import Roll from 'react-reveal/Roll';
 
 const Skills = () => {
     return (
        
-        <div className = "bck_black"> 
-          <div className = "center_wrapper">
-              <div className = "vn_wrapper">
-                      
-            <Zoom duration = {500}>
+      <div className = "bck_black"> 
+      <h1
+      style = {{
+        textAlign: 'center'
+      }}
+      >Skills</h1>
+   
+      <Roll left>
+        <div className = "ol s12 m7 div-card">
+        <div className = "icon"> <i class="fab fa-js-square "></i></div>
+        </div> 
+      </Roll>
 
-                    <div className = "vn_item">
-                          <div className = "vn_outer">
-                            <div className = "vn_inner">
-                                <div className = "vn_icon_square bck_red"></div>
-                                <div className = "vn_icon"
-                                style = {{
-                                    backgroundColor: 'red'
-                                }}
-                                
-                                ></div>
-                                <div className = "vn_title">
-                                    Event Date & Time 
-                                </div>
-
-                                <div className = "vn_desc">
-                                  7 August 2019 @ 10.00 PM
-                               
-                                </div>
-                            </div>
-                          </div>
-                     </div>
-
-                </Zoom>
-                     
-                     <Zoom delay = {500}>
-                    <div className = "vn_item">
-                          <div className = "vn_outer">
-                            <div className = "vn_inner">
-                                <div className = "vn_icon_square bck_yellow"></div>
-                                <div className = "vn_icon"
-                                style = {{
-                                    backgroundColor: 'red'
-                                }}
-                                
-                                ></div>
-                                <div className = "vn_title">
-                                    Event location
-                                </div>
-
-                                <div className = "vn_desc">
-                                 53rd street Oaklahoma
-                               
-                                </div>
-                            </div>
-                          </div>
-                    </div>
-
-                    </Zoom>
-
-
-
-                    <div>
-
-                    </div>
-
-              </div>
-
-          </div>
+      <Roll left>
+        <div className = "ol s12 m7 div-card">
+        <div className = "icon"><i class="fab fa-react"></i></div>
         </div>
+      </Roll>
+
+      <Roll left>
+        <div className = "ol s12 m7 div-card">
+        <div className = "icon"><i class="fab fa-node"></i></div>
+        </div>
+      </Roll>
+
+      <Roll left>
+        <div className = "ol s12 m7 div-card">
+        <div className = "icon"><i class="fab fa-npm"></i></div>
+        </div>
+        </Roll>
+
+      <Roll left>
+        <div className = "ol s12 m7 div-card">
+        <div className = "icon"><i class="fab fa-github"></i></div>
+        </div>
+        </Roll>
+
+        <Roll left>
+        <div className = "ol s12 m7 div-card">
+        <div className = "icon"><i class="fab fa-css3-alt"></i></div>
+        </div>
+        </Roll>
+        
+        <Roll left>
+        <div className = "ol s12 m7 div-card">
+        <div className = "icon"><i class="fab fa-linux"></i></div>
+        </div>
+        </Roll>
+
+      <Roll left>
+        <div className = "ol s12 m7 div-card">
+        <div className = "icon"><i class="fab fa-html5"></i></div>
+        </div>
+        </Roll>
+
+      <Roll left>
+        <div className = "ol s12 m7 div-card">
+        <div className = "icon"><i class="fab fa-git-square"></i></div>
+        </div>
+        </Roll>
+    </div>
     );
 };
 
 export default Skills;
+

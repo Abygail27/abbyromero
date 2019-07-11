@@ -77,8 +77,12 @@ footer .footer_copyright {
 
 
 .carrousel_wrapper {
+    padding: 10px 10px;
     height:700px;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: 
 }
 
 .carrousel_image {
@@ -99,14 +103,13 @@ footer .footer_copyright {
 }
 
 .artist_name .wrapper {
-    border: 2px solid white;
-    height: 121px;
+    border: 2px solid gray;
+    height: 200px;
     margin: 6px;
     text-align: center;
     color: #fff;
     font-size: 40px;
-    padding: 21px 70px 0px 70px;
-    text-transform: uppercase;
+ 
 }
 
 
@@ -115,68 +118,24 @@ footer .footer_copyright {
         VENUE NFO
 ======================*/
 
-.vn_wrapper {
-    display: flex;
-    padding: 170px 0px;
+.bck_black{
+    background-color: black;
+    padding:10px 10px;
+    height: 300px;
+    color: white;
+    font-size: 25px;
+    
 }
 
-.vn_item {
-    width:50%;
-    color:#ffffff;
-    text-align: center;
-}
-                      
-.vn_item .vn_outer {
-    width: 300px;
-    border: 2px solid #828282;
-    margin: auto;
-    padding: 5px;
+.icon {
+    float: left; 
+    display: inline; 
+    width: 11%;
+    padding-left: 1px;
+    font-size: 80px;
 }
 
-.vn_item .vn_inner { 
-    border: 2px solid #828282;
-    position: relative;
-    padding: 0px 20px;
-    transition: all 500ms ease;
-}
 
-.vn_item .vn_inner:hover {
-    background: #3e3e3e;
-}
-
-.vn_item .vn_icon_square {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    top: -54px;
-    left: 100px;
-}
-
-.vn_item .vn_icon {
-    width: 50px;
-    height: 50px;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    position: absolute;
-    top: -30px;
-    left: 124px;
-}
-
-.vn_item .vn_title {
-    font-size: 28px;
-    margin: 90px 0px 20px 0px;
-    border-bottom: 1px solid #5d5d5d;
-    padding-bottom: 10px;
-}
-
-.vn_item .vn_desc {
-    font-size: 30px;
-    font-weight: 300;
-    margin-bottom: 90px;
-}
 
 /*====================
         HIGHLIGHTS
@@ -245,6 +204,55 @@ footer .footer_copyright {
     padding: 70px 0px;
 }
 
+.bck_black_proyects{
+    background: black;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
 
 .pricing_section h2 {
     color: #ffffff;

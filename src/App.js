@@ -16,7 +16,6 @@ import Pricing from './components/pricing';
 import Contact from './components/Contact';
 
 
-import Footer from './components/header_footer/Footer';
 class App extends Component {
   render () {
 
@@ -47,7 +46,7 @@ class App extends Component {
       <Contact/>
     </Element>
 
-      <Footer/>
+   
 
       </div>
     );

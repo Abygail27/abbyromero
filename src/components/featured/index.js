@@ -1,6 +1,6 @@
 import React from 'react'; 
 import Carrousel from './Carrousel';
-
+import Flip from 'react-reveal/Flip';
 
 const Featured = () => {
     return (
@@ -10,14 +10,18 @@ const Featured = () => {
 
 
            <div className = "artist_name">
+           <Flip top>
+          
                <div className = "wrapper"
                style = {{
-                   color: 'black'
-               }}
-               >
-                   Passionate young women 
-                   with a desire to continue on learning
+                   color: 'white',
+                   fontSize: '35px',
+                   fontFamily: 'Montserrat,sans-serif'
+               }} >
+                   Passionate front-end developer 
+                   with a desire to continue learning
                </div>
+        </Flip>
           </div>
         </div>
     )
