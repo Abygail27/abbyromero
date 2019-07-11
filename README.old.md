@@ -1,2 +1,0 @@
-# Abby-Romero
-portafolio
