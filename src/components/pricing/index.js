@@ -1,5 +1,12 @@
 import  React, { Component } from 'react';
 import Zoom from 'react-reveal/Zoom';
+import digital_clubbing from '../../resources/proyects/digital_clubbing.png';
+import femeduca from '../../resources/proyects/femeduca.png';
+import linkup from '../../resources/proyects/linkup.png';
+import md_links from '../../resources/proyects/md_links.png';
+import burger_queen from '../../resources/proyects/burger_queen.png';
+import venue from '../../resources/proyects/venue.png';
+
 
 class Pricing extends Component {
 
@@ -17,11 +24,14 @@ class Pricing extends Component {
           <div className="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbqzn-stjq6.jpg" alt="Avatar" style={{
-     width:'300px',
-     height:'200px'
+    <a href="" target="">
+                        <img className="twitter" src={digital_clubbing} 
+                        
+                        width="300px" height = "200px" alt="twitter"/>
+                    </a>
 
-    }}/>
+  
+
     </div>
     <div className="flip-card-back">
       <h1>Digital Clubbing</h1> 
@@ -39,11 +49,12 @@ class Pricing extends Component {
           <div className="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbyb2-e1m4h.jpg" alt="Avatar" style={{
-      width:'300px',
-      height:'200px'
-
-    }}/>
+    <a href="" target="">
+                        <img className="twitter" src={femeduca} 
+                        
+                        width="300px" height = "200px" alt="twitter"/>
+                    </a>
+    
     </div>
     <div className="flip-card-back">
       <h1>Femeduca</h1> 
@@ -62,11 +73,11 @@ class Pricing extends Component {
           <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbio3-kuc48.jpg" alt="Avatar" style={{
-     width:'300px',
-     height:'200px'
-
-    }}/>
+    <a href="" target="">
+                        <img className="twitter" src={linkup} 
+                        
+                        width="300px" height = "200px" alt="twitter"/>
+                    </a>
     </div>
     <div className="flip-card-back">
       <h1>Linkup!</h1> 
@@ -84,11 +95,12 @@ class Pricing extends Component {
           <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbk4d-dci96.jpg" alt="Avatar" style={{
-      width:'300px',
-      height:'200px'
-
-    }}/>
+    <a href="" target="">
+                        <img className="twitter" src={md_links} 
+                        
+                        width="300px" height = "200px" alt="twitter"/>
+                    </a>
+   
     </div>
     <div className="flip-card-back">
       <h1>Markdown Links</h1> 
@@ -110,11 +122,12 @@ class Pricing extends Component {
           <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbrwc-xes3z.jpg" alt="Avatar" style={{
-      width:'300px',
-      height:'200px'
-
-    }}/>
+    <a href="" target="">
+                        <img className="twitter" src={burger_queen} 
+                        
+                        width="300px" height = "200px" alt="twitter"/>
+                    </a>
+    
     </div>
     <div className="flip-card-back">
       <h1>Burger Queen</h1> 
@@ -132,11 +145,12 @@ class Pricing extends Component {
           <div className="flip-card">
   <div class="flip-card-inner">
     <div className="flip-card-front">
-    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbvok-o7ojf.jpg" alt="Avatar" style={{
-     width:'300px',
-     height:'200px'
-
-    }}/>
+    <a href="" target="">
+                        <img className="twitter" src={venue} 
+                        
+                        width="300px" height = "200px" alt="twitter"/>
+                    </a>
+   
     </div>
     <div className="flip-card-back">
       <h1>The Venue</h1> 

@@ -24,7 +24,8 @@ class Discount extends Component {
                        >
 Curious to learn and in a constant search for inspiration. 
  I like to make an effort in my work and dedicate time to what enriches me. 
- I adapt easily to changes, I like big challenges and new opportunities for growth. </p>
+ I adapt easily to changes, I like big challenges and new opportunities for growth.
+ I am in constant learning process so my mind is open to new perspectives and disciplines. </p>
 
 
                     

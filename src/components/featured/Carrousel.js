@@ -1,7 +1,5 @@
     
 import React from 'react'; 
-import Slider from "react-slick";
-
 import slide_one from '../../resources/images/slide_one.jpg';
 
 
