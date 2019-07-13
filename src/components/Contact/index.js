@@ -8,16 +8,31 @@ const Contact = () => {
             <div style = {{
                 
                 width: "100%",
-                height: "500px",
-                backgroundColor: "red"
+                height: "400px",
+                backgroundColor: "white"
             }}
-          > hello 
+            >
             </div>
 
              <div className = "location_tag">
-                 <div>
-                     Location
-                 </div>
+            <div>
+               Contact Me 
+            </div>
+            <div>
+               Contact Me 
+            </div>
+            <div>
+               Contact Me 
+            </div>
+            <div>
+               Contact Me 
+            </div>
+            <div>
+               Contact Me 
+            </div>
+            <div>
+               Contact Me 
+            </div>
              </div>
         </div>
 

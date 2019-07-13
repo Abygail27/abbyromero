@@ -1,6 +1,4 @@
 import  React, { Component } from 'react';
-import MyButton from '../utils/MyButton';
-
 import Zoom from 'react-reveal/Zoom';
 
 class Pricing extends Component {
@@ -16,19 +14,19 @@ class Pricing extends Component {
                     <div className = "pricing_wrapper">
                     <Zoom>
           <div className = "pricing_item">
-          <div class="flip-card">
+          <div className="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <img src="https://images.unsplash.com/photo-1562732636-097920e73c94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Avatar" style={{
+    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbqzn-stjq6.jpg" alt="Avatar" style={{
      width:'300px',
      height:'200px'
 
     }}/>
     </div>
-    <div class="flip-card-back">
-      <h1>Cipher</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
+    <div className="flip-card-back">
+      <h1>Digital Clubbing</h1> 
+      <p><button className = "card">Demo</button></p> 
+      <p><button className = "card">Code</button></p>
     </div>
   </div>
 </div>
@@ -38,19 +36,19 @@ class Pricing extends Component {
 
           <Zoom>
           <div className = "pricing_item">
-          <div class="flip-card">
+          <div className="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <img src="https://images.unsplash.com/photo-1562732636-097920e73c94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Avatar" style={{
+    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbyb2-e1m4h.jpg" alt="Avatar" style={{
       width:'300px',
       height:'200px'
 
     }}/>
     </div>
-    <div class="flip-card-back">
-      <h1>Data Lovers</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
+    <div className="flip-card-back">
+      <h1>Femeduca</h1> 
+        <p><button className = "card">Demo</button></p> 
+      <p><button className = "card">Code</button></p>
     </div>
   </div>
 </div>
@@ -64,16 +62,16 @@ class Pricing extends Component {
           <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <img src="https://images.unsplash.com/photo-1562732636-097920e73c94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Avatar" style={{
+    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbio3-kuc48.jpg" alt="Avatar" style={{
      width:'300px',
      height:'200px'
 
     }}/>
     </div>
-    <div class="flip-card-back">
+    <div className="flip-card-back">
       <h1>Linkup!</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
+      <p><button className = "card">Demo</button></p> 
+      <p><button className = "card">Code</button></p>
     </div>
   </div>
 </div>
@@ -83,19 +81,23 @@ class Pricing extends Component {
 
           <Zoom>
           <div className = "pricing_item">
-          <div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="https://images.unsplash.com/photo-1562732636-097920e73c94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Avatar" style={{
+          <div className="flip-card">
+  <div className="flip-card-inner">
+    <div className="flip-card-front">
+    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbk4d-dci96.jpg" alt="Avatar" style={{
       width:'300px',
       height:'200px'
 
     }}/>
     </div>
-    <div class="flip-card-back">
+    <div className="flip-card-back">
       <h1>Markdown Links</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
+      <p><button className = "card"
+       OnClick
+       to="https://s4.aconvert.com/convert/p3r68-cdx67/cbrwc-xes3z.jpg"
+     >
+       {'Demo'}></button></p> 
+      <p><button className = "card">Code</button></p>
     </div>
   </div>
 </div>
@@ -105,19 +107,19 @@ class Pricing extends Component {
 
           <Zoom>
           <div className = "pricing_item">
-          <div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="https://images.unsplash.com/photo-1562732636-097920e73c94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Avatar" style={{
+          <div className="flip-card">
+  <div className="flip-card-inner">
+    <div className="flip-card-front">
+    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbrwc-xes3z.jpg" alt="Avatar" style={{
       width:'300px',
       height:'200px'
 
     }}/>
     </div>
-    <div class="flip-card-back">
+    <div className="flip-card-back">
       <h1>Burger Queen</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
+      <p><button className = "card">Demo</button></p> 
+      <p><button className = "card">Code</button></p>
     </div>
   </div>
 </div>
@@ -127,19 +129,19 @@ class Pricing extends Component {
 
           <Zoom>
           <div className = "pricing_item">
-          <div class="flip-card">
+          <div className="flip-card">
   <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="https://images.unsplash.com/photo-1562150467-17d77392ad0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=715&q=80" alt="Avatar" style={{
+    <div className="flip-card-front">
+    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cbvok-o7ojf.jpg" alt="Avatar" style={{
      width:'300px',
      height:'200px'
 
     }}/>
     </div>
-    <div class="flip-card-back">
-      <h1>Landing Page</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
+    <div className="flip-card-back">
+      <h1>The Venue</h1> 
+      <p><button className = "card">Demo</button></p> 
+      <p><button className = "card">Code</button></p>
     </div>
   </div>
 </div>

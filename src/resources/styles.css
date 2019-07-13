@@ -203,6 +203,31 @@ footer .footer_copyright {
 .pricing_section {
     padding: 70px 0px;
 }
+.card {
+  
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: roboto;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid white;
+      }
+      
+     
+      .card:hover {
+        background-color: white;
+  color: white;
+      }
+
 
 .bck_black_proyects{
     background: black;
@@ -248,7 +273,7 @@ footer .footer_copyright {
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: black;
     color: white;
     transform: rotateY(180deg);
   }
@@ -330,3 +355,5 @@ footer .footer_copyright {
     padding: 15px 20px;
     text-align: center;
 }
+
+

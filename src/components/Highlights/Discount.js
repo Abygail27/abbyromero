@@ -17,14 +17,14 @@ class Discount extends Component {
                     <Slide right>
 
                         <div className="discount_description">
-                       <p> I am a curious 20 year old woman
-to learn and that constantly seeks inspiration to achieve their
-goals. I like to make an effort in my work and dedicate time to what I
-enrich, spend time with people that feed me and fills my life with
-wisdom and tools to be able to face any situation. Me
-I adapt easily to changes, I like big challenges and new ones
-growth opportunities. I lived in the United States for a few years, in which
-I could strengthen my skills to communicate in English. </p>
+                       <p 
+                       style = {{
+                           fontSize: '35px'
+                       }}
+                       >
+Curious to learn and in a constant search for inspiration. 
+ I like to make an effort in my work and dedicate time to what enriches me. 
+ I adapt easily to changes, I like big challenges and new opportunities for growth. </p>
 
 
                     
