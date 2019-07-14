@@ -338,6 +338,7 @@ footer .footer_copyright {
 
 .contact_wrapper {
     position:relative;
+
 }
 
 .location_tag {
@@ -346,14 +347,17 @@ footer .footer_copyright {
     width: 100%;
 }
 .location_tag div{
-    background: #2c2c2c;
-    color: #ffffff;
+    color: black;
     text-transform: uppercase;
-    width: 220px;
+    width: 300px;
     margin: 0 auto;
     font-size: 29px;
-    padding: 15px 20px;
+    padding: 30px 90px;
+    padding-bottom: 5%;
     text-align: center;
+    float: left; 
+    display: inline; 
+    width: 11%;
 }
 
 

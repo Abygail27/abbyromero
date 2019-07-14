@@ -8,34 +8,36 @@ const Contact = () => {
             <div style = {{
                 
                 width: "100%",
-                height: "400px",
+                height: "250px",
                 backgroundColor: "white"
             }}
             >
             </div>
 
              <div className = "location_tag">
-            <div>
-               Contact Me 
+             <div>
+            We can share ideas or collaborate.
             </div>
             <div>
-               Contact Me 
-            </div>
-            <div>
-               Contact Me 
-            </div>
-            <div>
-               Contact Me 
-            </div>
-            <div>
-               Contact Me 
-            </div>
-            <div>
-               Contact Me 
-            </div>
-             </div>
-        </div>
+            <i class="fab fa-linkedin"
+            style = {{
 
+               fontSize: '50px'
+            }}
+            ></i>
+            </div>
+            <div>
+            <i class="fas fa-file-download"
+             style = {{
+
+               fontSize: '50px'
+            }}
+            ></i>
+            </div>
+           
+         </div>
+
+      </div>
     );
 }; 
 

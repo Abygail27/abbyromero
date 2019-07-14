@@ -1,6 +1,6 @@
     
 import React from 'react'; 
-import slide_one from '../../resources/images/slide_one.jpg';
+import black_slide from '../../resources/images/black_slide.png';
 
 
 
@@ -15,7 +15,7 @@ const Carrousel = () => {
           style ={{
               height: `${window.innerHeight}px`,
               overflow: 'hidden',
-              background:  `url(${slide_one})`,
+              background:  `url(${black_slide})`,
               height: `${window.innerHeight}px`,
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover'

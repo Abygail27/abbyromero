@@ -104,11 +104,7 @@ class Pricing extends Component {
     </div>
     <div className="flip-card-back">
       <h1>Markdown Links</h1> 
-      <p><button className = "card"
-       OnClick
-       to="https://s4.aconvert.com/convert/p3r68-cdx67/cbrwc-xes3z.jpg"
-     >
-       {'Demo'}></button></p> 
+      
       <p><button className = "card">Code</button></p>
     </div>
   </div>
