@@ -250,6 +250,7 @@ footer .footer_copyright {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    font-size: 10px;
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
